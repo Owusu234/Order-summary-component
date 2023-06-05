@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.attribution { 
+    font-size: 16px;
+    text-align: center;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
+
+
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 98%);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+   
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 59%;
+    background-color: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin:5% 20%;
+}
+
+h1{
+    color: hsl(223, 47%, 23%);
+    padding: 25px;  
+}
+
+p{
+    color:hsl(224, 23%, 55%);
+    text-align: center;
+    padding: 25px;
+    font-size: 16px;
+}
+
+.g-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: hsla(225, 100%, 94%, 0.3);
+    border-radius: 20px;
+    width: 70%;
+}
+
+.g{
+    display: flex;
+    flex-direction: column;
+    margin-right: 35px;
+}
+
+.n{
+    color: hsl(223, 47%, 23%);
+    font-weight: bolder;
+    font-size: large;
+}
+
+.m{
+    color:hsl(224, 23%, 55%) ;
+}
+
+.g-main img{
+    margin-right: 5px;
+}
+
+a{
+    color:  hsl(245, 75%, 52%);
+    margin-left: 10px;
+}
+
+.h{
+    border: none;
+    background: hsl(245, 75%, 52%);
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    width: 70%;
+    margin-top: 20px;
+}
+
+
+.j{
+    border: none;
+    background:none;
+    color:hsl(224, 23%, 55%) ;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.t{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+@media(max-width:600px){
+    .container{
+        max-width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px;
+        overflow: hidden;
+        margin: 0px;
+    }
+
+    .t{
+        width: 100%;
+    }
+
+}
